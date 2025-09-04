@@ -15,17 +15,17 @@ def divide(num1, num2):
 
 print("Basic Caculator Opretaion")
 try:
-    choice= input("Choose operation(+, -, *, /)" "or" "exist to quit: ")
+    choice= input("Choose operation(1, 2, 3, 4)" "or" "exist to quit: ")
     while True: 
         num1= int(input("Enter first number:"))
         num2= int(input("Enter the second number:"))
-        if choice == "+":
+        if choice == "1":
             print(f"Result: {num1 + num2}")
-        elif choice == "-":
+        elif choice == "2":
             print(f"Result: {num1 - num2}")
-        elif choice == "*":
+        elif choice == "3":
             print(f"Result: {num1 * num2}")
-        elif choice == "/":
+        elif choice == "4":
             print(f"Result: {num1 /num2}")
         elif choice == "exist":
             print("Existing the program")
