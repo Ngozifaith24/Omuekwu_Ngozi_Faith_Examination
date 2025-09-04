@@ -17,8 +17,8 @@ print("Basic Caculator Opretaion")
 try:
     choice= input("Choose operation(+, -, *, /)" "or" "exist to quit: ")
     while True: 
-        num1= input("Enter first number:")
-        num2= input("Enter the second number:")
+        num1= int(input("Enter first number:"))
+        num2= int(input("Enter the second number:"))
         if choice == "+":
             print(f"Result: {num1 + num2}")
         elif choice == "-":
